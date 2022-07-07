@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    background-image: url(../healty.png);
+    width: 10vw;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo {
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#body {
+    background-color: #323859;
+}
+
+.adminClass {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    background-color: #323859;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+}
+
+h3 {
+    border-bottom: 1px solid #0d0d0d;
+    padding: 1rem;
+}
+
+button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #f2f2f2;
+    width: 200px;
+    height: 50px;
+    color: #d92938;
+    text-transform: uppercase;
+    padding-left: 5 rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover,
+button.active {
+    color: #595959;
+    background-color: white;
+    border: 1px solid #595959;
+}
+
+table {
+    border: 1px solid white;
+}
+
+tr:nth-child(even) {
+    background-color: #f22e2e;
+    color: white;
+}
+
+#listaUsuarios {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: text;
+    padding: 1.2rem 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 4rem;
+    font-size: 1.6rem;
+}
+
+th {
+    padding: 1.2rem 3rem;
+}
+
+td {
+    padding: 1.2rem 3rem;
+}
+
+th {}
+
+td {}

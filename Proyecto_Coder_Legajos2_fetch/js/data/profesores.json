@@ -1,0 +1,32 @@
+[
+{"id":1,
+    "nombre": "Suarez Kamizani",
+    "edad":"35",
+    "disciplina":"CROSSFIT",
+    "img":"https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+},
+{"id":2,
+    "nombre": "Matias Duran",
+    "edad":"35",
+    "disciplina":"CROSSFIT",
+    "img":"https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+},
+{"id":3,
+    "nombre": "Alicia Salas",
+    "edad":"35",
+    "disciplina":"CROSSFIT",
+    "img":"https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+},
+{"id":4,
+    "nombre": "Micaela Gorrtit",
+    "edad":"35",
+    "disciplina":"CROSSFIT",
+    "img":"https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+},
+    {"id": 5,
+    "nombre": "Edd Edward",
+    "edad":"35",
+    "disciplina":"CROSSFIT",
+    "img":"https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+}
+]
