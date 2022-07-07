@@ -34,7 +34,7 @@ function mostrarDatos(data) {
                           
       `
       const btn = document.createElement("button")
-      btn.innerText = "Infrmacion personal"
+      btn.innerText = "Informacion personal"
       btn.addEventListener("click", () =>
 
          cargarPost(id)
